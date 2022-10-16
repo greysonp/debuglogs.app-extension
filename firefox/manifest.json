@@ -1,0 +1,22 @@
+{
+  "name": "Always debuglogs.app",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Redirects all debuglogs.org requests to debuglogs.app",
+
+  "icons": {
+        "16": "img/extension-icon.png",
+        "48": "img/extension-icon.png",
+        "128": "img/extension-icon.png"
+  },
+
+  "background": {
+    "scripts": [ "js/background.js" ]
+  },
+
+  "permissions": [
+    "*://debuglogs.org/*",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}

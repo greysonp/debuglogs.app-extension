@@ -1,0 +1,14 @@
+[{
+  "id" : 1,
+  "priority": 1,
+  "action" : {
+    "type" : "redirect",
+    "redirect": {
+      "regexSubstitution": "https://debuglogs.app/\\1"
+    }
+  },
+  "condition" : {
+    "regexFilter" : "^https://debuglogs.org/(.*)",
+    "resourceTypes" : ["main_frame"]
+  }
+}]

@@ -1,0 +1,29 @@
+{
+  "name": "Always debuglogs.app",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Redirects all debuglogs.org requests to debuglogs.app",
+
+  "icons": {
+    "16": "img/extension-icon.png",
+    "48": "img/extension-icon.png",
+    "128": "img/extension-icon.png"
+  },
+
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "main",
+      "enabled": true,
+      "path": "main_ruleset.json"
+    }]
+  },
+
+  "host_permissions": [
+    "*://debuglogs.org/*"
+  ],
+
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ]
+}
