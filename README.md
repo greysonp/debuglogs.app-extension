@@ -4,8 +4,8 @@ This is a simple browser extension that redirects requests to debuglogs.org to d
 
 For more details on debuglogs.app, check out the repo here: [link](https://github.com/greysonp/debuglogs.app)
 
+[![Chrome Extension](gh-assets/chrome-extension-icon.png)](https://chrome.google.com/webstore/detail/always-debuglogsapp/oniffipheighcgplcfcmhkaipgcbbokf)
 [![Firefox Add-on](gh-assets/firefox-add-on-icon.png)](https://addons.mozilla.org/en-US/firefox/addon/always-debuglogs-app/)  
-_The extension is currently under review in the Chrome web store. I will put a link here after it's live._
 
 ## Installing from source
 
