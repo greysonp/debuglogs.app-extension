@@ -23,6 +23,6 @@
   ],
 
   "permissions": [
-    "declarativeNetRequest"    
+    "declarativeNetRequestWithHostAccess"
   ]
 }
